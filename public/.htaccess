@@ -1,0 +1,8 @@
+# ลิงก์เดิมของเว็บ PHP -> หน้าใหม่ของ Next.js (static export)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^index\.php$ / [R=301,L]
+    RewriteRule ^index-en\.php$ /en/ [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /404.html
